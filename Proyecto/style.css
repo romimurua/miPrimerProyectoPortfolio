@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #03071b;
+}
+
+h1 {
+    color: #FFFFFF ;
+}
+
+main {
+     text-align: end;
+}
+
+h2 {
+    color:#3480BE ;
+    text-align: center;
+}
+
+p {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer {
+    background: #242635;
+}
+
+
+/* COLORES
+#3480BE
+#D1CECA
+#FFFFFF
