@@ -4,43 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Portafolio Romi Murúa</title>
+    <link rel="shortcut icon" href="../assets/curriculum-vitae.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/0e8f2c0071.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
-    <title>Mi Primer Proyecto</title>
+
 </head>
 
 <body>
 
-    <header>
-        <main>
-            <a href="http://">Home</a>
-            <a href="http://">Servicios</a>
-            <a href="http://">Acerca de mí</a>
-            <a href="http://">Mis habilidades</a>
-            <a href="http://">Mi portafolio</a>
-            <a href="http://">Contacto</a>
-        </main>
+    <header class="header">
+        <nav class="nav">
+            <i id="menu-icon" class="fa-solid fa-bars fa-xl"></i>
+            <ul class="nav--menu">
+                <li class="nav--item">
+                    <a class="nav--link" href="#home">Home</a>
+                </li>
+                <li class="nav--item">
+                    <a class="nav--link" href="#info">Acerca de mí</a>  
+                </li>
+                <li class="nav--item">
+                    <a class="nav--link" href="#servicios">Servicios</a>
+                </li>
+                <li class="nav--item">
+                    <a class="nav--link" href="#habilidades">Mis habilidades</a>
+                </li class="nav--item">
+                <li class="nav--item">        
+                    <a class="nav--link" href="#portfolio">Mi portafolio</a>
+                </li>
+                <li class="nav--item">      
+                    <a class="nav--link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+                
+           
     </header>
-    <section>
-        <h1>Soy Romi</h1>
-        <h3>Marketer & Developer</h3>
-        <img src="../assets/foto perfil.jpg" alt="foto">
-        <h3>Cursando 1er Módulo
-            <br>
-            Estudiante de Academlo</h3>
-            <img src="../Portafolio 4/cib_linkedin-in.svg" alt="linkedin">
-            <img src="../Portafolio 4/ant-design_instagram-filled.svg" alt="instagram">
-            <img src="../Portafolio 4/ant-design_twitter-outlined.svg" alt="twitter">
 
-            <div>
-                <img src="../Portafolio 4/akar-icons_google-fill.png" alt="google">
-                <img src="../Portafolio 4/ant-design_amazon-outlined.png" alt="amazon">
-                <img src="../Portafolio 4/bi_spotify.png" alt="spotify">
+    <div class="imagen-fondo" id="home">  
+    
+    <section class="informacion">
+            <div  class="cabecera">  
+                
+                    <div class="cabecera--nombre"> 
+                        <h1>Soy</h1>
+                        <h1 class="color--tituloh1">Romi</h1>
+                        <h3>Marketer &
+                            <br>
+                            Developer</h3>
+                    </div>
+                <div class="cabecera--experiencia">  
+                    <h3 class="color--titulo">1er Módulo </h3>
+                    <h3>Academlo</h3>
+                        <img class="redes" src="../Portafolio 4/cib_linkedin-in.svg" alt="linkedin">
+                        <img class="redes" src="../Portafolio 4/ant-design_instagram-filled.svg" alt="instagram">
+                        <img class="redes" src="../Portafolio 4/ant-design_twitter-outlined.svg" alt="twitter">
+                    </div>
+                
             </div>
+
+            
     </section>
+    </div>
+
+    <div class="comerciales">
+        <img class="iconos--comerciales" src="../Portafolio 4/akar-icons_google-fill.png" alt="google">
+        <img class="iconos--comerciales" src="../Portafolio 4/ant-design_amazon-outlined.png" alt="amazon">
+        <img class="iconos--comerciales" src="../Portafolio 4/bi_spotify.png" alt="spotify">
+    </div>
+
     <section>
-        <h2>Acerca de mí</h2>
-        <p>Soy Marketer, con experiencia en gestión de modelos de negocios y finanzas.
+        <h2 id="info">Acerca de mí</h2>
+        <p class="miinfo">Soy Marketer, con experiencia en gestión de modelos de negocios y finanzas.
            <br>
            Tengo un interés específico por Internet, lo que me ha llevado interesarme por
            <br>
@@ -52,47 +88,95 @@
         </p>
     </section>
     <section>
-        <h2>Servicios</h2>
-        <div>  
-            <img src="../Portafolio 4/iconoir_design-pencil.svg" alt="pencil">
-            <h4>UX/UI Design</h4>
-            <p>Desde diseño hasta implementación del desarrollo</p>
-        </div>
-        <div>
-            <img src="../Portafolio 4/majesticons_speakerphone-line.svg" alt="marketing">
-            <h4>Marketing</h4>
-            <p>Desde diseño hasta implementación del desarrollo</p>
-        </div>
-        <div>
-            <img src="../Portafolio 4/feather_search.svg" alt="busqueda">
-            <h4>Research</h4>
-            <p>Desde diseño hasta implementación del desarrollo</p>
-        
+        <h2 id="servicios">Servicios</h2>
+        <div class="container--areas">  
+            <div class="areas--trabajo">  
+                <img class="areas--icon" src="../Portafolio 4/iconoir_design-pencil.svg" alt="pencil">
+                <h4>UX/UI Design</h4>
+                <p>Desde diseño hasta implementación del desarrollo</p>
+            </div>
+            <div class="areas--trabajo">
+                <img class="next" src="../Portafolio 4/majesticons_speakerphone-line.svg" alt="marketing">
+                <h4>Marketing</h4>
+                <p>Desde diseño hasta implementación del desarrollo</p>
+            </div>
+            <div class="areas--trabajo">
+                <img class="prev" src="../Portafolio 4/feather_search.svg" alt="busqueda">
+                <h4>Research</h4>
+                <p>Desde diseño hasta implementación del desarrollo</p>
+            </div>
         </div>
     </section>
     <section>
-        <h2>Mis habilidades</h2>
+        <h2 id="habilidades">Mis habilidades</h2>
+        <div class="contenedor--habilidades">
+            <div class="habilidades">
+                <h3>Marketing</h3>
+                <p class="barramkt">95%</p>
+                <div class="barra">
+                    <div class="progreso--marketing">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="contenedor--habilidades">
+            <div class="habilidades">
+                <h3>HTML & CSS</h3>
+                <p class="barrahtml">90%</p>
+                <div class="barra">
+                    <div class="progreso--html">
+                        
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="contenedor--habilidades">
+            <div class="habilidades">
+                <h3>JavaScript</h3>
+                <p class="barrajs">60%</p>
+                <div class="barra">
+                    <div class="progreso--js">
+                        
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
     </section>
     <section>
-        <h2>Mi portafolio</h2>
-        <img src="../Portafolio 4/Rectangle 65.jpg" alt="portfolio1">
-        <img src="../Portafolio 4/image 4.jpg" alt="portfolio2">
-        <img src="../Portafolio 4/Rectangle 53.jpg" alt="portfolio3">
-        <img src="../Portafolio 4/Group 47.jpg" alt="portfolio4">
+        <h2 id="portfolio">Mi portafolio</h2>
+        <div class="portfolio"> 
+            <img class="pasar" src="../Portafolio 4/Rectangle 65.jpg" alt="portfolio1">
+            <img class="seleccionar" src="../Portafolio 4/image 4.jpg" alt="portfolio2">
+            <img class="cambiar" src="../Portafolio 4/Rectangle 53.jpg" alt="portfolio3">
+            <img class="visual" src="../Portafolio 4/Group 47.jpg" alt="portfolio4">
+        </div>
     
-    
     </section>
     <section>
-        <h2>Contacto</h2>
-        <div>
-            <img src="../Portafolio 4/phone 3.svg" alt="phone">
-            <h4>Número de celular</h4>
-            <p>+54 (381) 4679282</p>
-        </div>
-        <div>
-            <img src="../Portafolio 4/mail 3.svg" alt="mail">
-            <h4>Email</h4>
-            <p><a href="mailto:romimurua.prensa@gmail.com">romimurua.prensa@gmail.com</a></p>
+        <h2 id="contacto">Contacto</h2>
+        <div class="container--contacto"> 
+            <div class="contacto">
+                <img class="contacto--img" src="../Portafolio 4/phone 3.svg" alt="phone">
+                <h4>Número celular</h4>
+                <h6>+54(381)4679282</h6>
+            </div>
+        </div>    
+        <div class="container--contactoDos">
+            <div class="contacto">
+                <img class="contacto--img" src="../Portafolio 4/mail 3.svg" alt="mail">
+                <h4>Email</h4>
+                <h6><a class="contacto--mail" href="mailto:romimurua.prensa@gmail.com">romimurua.prensa@gmail.com</a></h6>
+            </div>
         </div>
     </section>
     
@@ -100,7 +184,7 @@
 </body>
 
 <footer>
-    <p>Hecho con ♥ en Academlo</p>
+    <p class="footer">Hecho con ♥ en Academlo</p>
 
 </footer>
 
